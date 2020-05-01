@@ -2,11 +2,11 @@
 
 This project is all about connecting people to others during these unprecedented times. Many people have remarked that they lack the random social interaction that comes with being in an office or school setting.
 Therefore, this project is all about adding friends and then allowing them to spontaneously contact you, either through the designated **call** button on your friend card or through chance with the **random** button
-on the sidebar
+on the sidebar.
 
 ### How it works
 
-This application utilizes both React, Python3, Twilio, as well as Google Firebase in order to facilitate making calls, user authentication, friend statuses, and more.
+This application utilizes React, Python3, Twilio, as well as Google Firebase in order to facilitate making calls, user authentication, friend statuses, and more.
 
 ## Development tools
 - Google
@@ -26,6 +26,7 @@ This application utilizes both React, Python3, Twilio, as well as Google Firebas
 - Easy to use design with quick to start design principles
 - [Python3](https://www.python.org/) backend to control sensitive user data
 - Backend web server and API using [Flask](https://flask.palletsprojects.com/en/1.1.x/)
+- User online state tracking
 
 ## Set up
 
@@ -51,12 +52,12 @@ Before development can begin, please collect the following config values
 
 ### Firebase Account Settings
 
-Firebase is going to deal with all of our user authentication and storage through both
-their auth and database platforms. Please start and new project and app within said project, then gather the following:
+Firebase is going to deal with all of the user authentication and storage through both
+their authentication and database platforms. Please start and new project and app within said project, then gather the following:
 
 | Config&nbsp;Value | Description                                                                                                                                                  |
 | :---------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Admin&nbsp;Key  | The main server authentication for your back end (it will provide god powers, I promise). This can be found under the Service accounts section of your firebase app and downloaded as twiliohackathon.json                                                         |
+| Admin&nbsp;Key  | The main server authentication for your back end (it will provide god powers, I promise.) This can be found under the Service accounts section of your firebase app and downloaded as twiliohackathon.json                                                         |
 | Web&nbsp;Auth&nbsp;Key   |This is provided to your web app for client side database authentication|
 
 **Please** make sure to reinforce your Firebase Database with custom rules to ensure no data leaks.
